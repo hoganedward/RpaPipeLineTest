@@ -7,9 +7,9 @@ pipeline {
 	        MAJOR = '1'
 	        MINOR = '0'
 	        //Orchestrator Services
-	        UIPATH_ORCH_URL = "https://orchestrator.intalere.com/"
-	        UIPATH_ORCH_LOGICAL_NAME = "https://orchestrator.intalere.com/"
-	        UIPATH_ORCH_TENANT_NAME = "Default"
+	        UIPATH_ORCH_URL = "https://cloud.uipath.com/"
+	        UIPATH_ORCH_LOGICAL_NAME = "hoganhughedward"
+	        UIPATH_ORCH_TENANT_NAME = "hoganhughedward"
 	        UIPATH_ORCH_FOLDER_NAME = "Default"
 	    }
 	
@@ -24,7 +24,7 @@ pipeline {
 	                echo "Jenkins URL ${env.JENKINS_URL}"
 	                echo "Jenkins JOB Number ${env.BUILD_NUMBER}"
 	                echo "Jenkins JOB Name ${env.JOB_NAME}"
-	                echo "GitHub BranhName ${env.BRANCH_NAME}"
+	                echo "GitHub BranchName ${env.BRANCH_NAME}"
 	                checkout scm
 	
 

@@ -1721,9 +1721,9 @@
     "restore": {
       "projectUniqueName": "RPAPipeLineTest",
       "projectName": "RPAPipeLineTest",
-      "projectPath": "C:\\Git\\RPAPipeLineTest\\.local",
+      "projectPath": "C:\\GitHub\\RpaPipeLineTest\\.local",
       "packagesPath": "C:\\Users\\hogane\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\RPAPipeLineTest\\.local"
+      "outputPath": "C:\\GitHub\\RpaPipeLineTest\\.local"
     },
     "frameworks": {
       "net461": {
